@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(165, 247, 247);
+}
+p {
+    text-align: center;
+    color: #705ab5;
+    background-color: rgb(216, 175, 224);
+    border-radius: 10px;
+    box-shadow:5px 5px 15px #5f4f91;
+    
+}
+a:hover {
+    color: #542bcf;
+    background-color: rgb(216, 175, 224);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:5px 5px 15px #2c2a33;
+    
+}

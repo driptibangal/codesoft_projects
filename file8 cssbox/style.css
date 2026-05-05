@@ -1,0 +1,24 @@
+*{
+            margin: 0;
+            padding:0;
+        }
+        .box{
+            background-color: rgb(226, 177, 177);
+        }
+        .box1{
+            color: aliceblue;
+            padding: 10px;
+            margin: 25px;
+            border: 5px solid brown;
+            height: 100px; 
+            box-sizing: border-box;
+        }
+        .box2{
+            color: aquamarine;
+            padding: 10px;
+            margin: 25px;
+            border: 5px solid brown;
+            height: 100px; 
+            box-sizing: border-box;
+        }
+        

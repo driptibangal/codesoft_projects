@@ -1,0 +1,26 @@
+body{ 
+    background-color: rgb(252, 233, 209);
+}
+header{
+    background-color: rgb(52, 6, 96);
+    text-align: center;
+    height: 40px;
+    width: 600px;
+    border-radius: 20pc;
+    color: white
+
+}
+P{
+    background-color: rgb(148, 122, 172);
+    text-align: center;
+    height: 40px;
+    width: 600px;
+    border-radius: 20pc;
+    color: rgb(234, 238, 238);
+}
+h3{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    border-radius: 10pc
+}

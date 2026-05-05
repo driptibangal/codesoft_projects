@@ -1,0 +1,32 @@
+.red{
+    background-color: brown;
+    color: bisque;
+}
+#green{
+    background-color: rgb(164, 164, 214);
+    color: aliceblue;
+}
+/* child selector */
+div>p{
+    background-color: blanchedalmond;
+    color: brown;
+}
+div p{
+    background-color: blanchedalmond;
+    color: brown;
+}
+/* universal selector */
+
+*{
+    margin: 2pt;;
+    padding: 0cap;
+}
+/* pseudo selector */
+a:visited{
+    color: burlywood;
+}
+
+a:active{
+    background-color: black;
+    color: aliceblue;
+}
