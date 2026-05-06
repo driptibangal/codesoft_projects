@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    background: #5a5858;
+    color: white;
+    padding: 15px 30px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('image.webp') no-repeat center center/cover;
+    color: white;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    color: #333;
+    text-emphasis-color: inherit;
+    cursor: pointer;
+     
+      
+}
+.hero h2 {
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about-me {
+    padding: 80px 20px;
+    background: #f9f9f9;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+}
+
+.about-container {
+    max-width: 800px;
+    height: 100%;
+    margin: auto;
+    background-color: rgb(236, 235, 233);
+}
+
+.about-me h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about-me button {
+    padding: 12px 25px;
+    border: none;
+    background: #333;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-me button:hover {
+    background: #555;
+    transition: 0.3s;
+}
+/* Features */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.box {
+    background: #797777;
+    padding: 20px;
+    width: 25%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* About */
+.about {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+.img-box {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
